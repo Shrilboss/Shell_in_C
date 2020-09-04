@@ -1,6 +1,6 @@
 all: build
 
-build: binaries
+build:
   @echo "Building"
   gcc shell.c
 
