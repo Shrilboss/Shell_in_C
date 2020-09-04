@@ -2,7 +2,7 @@ all: build
 
 build:
   @echo "Building"
-  gcc shell.c
+  gcc shell.c -o shell -Wall -Werror
 
 clean:
   @echo "Cleaning"
